@@ -1,0 +1,27 @@
+{
+  "paper": "P012",
+  "problems": [
+    4,
+    5
+  ],
+  "historical_verification": "PASS",
+  "challenge": "SELF_CONTAINED_DRAFT_NOT_RUN",
+  "solution": "VERIFIED_TARGET",
+  "target_compilation": "REVISED_CHALLENGE_NOT_RUN",
+  "comparator": "REVISED_CHALLENGE_NOT_RUN",
+  "independent_kernels": "PASS_CON_RON_NANODA",
+  "statement_fidelity": "PASS_COMPARATOR_EXACT_DEFINITIONS_LITERATURE_REVIEW_PENDING",
+  "metadata_review": "SOURCE_REVIEWED_SCHEMA_VALID",
+  "scope_gap": false,
+  "publication": "NOT_AUTHORIZED",
+  "submission": "ON_HOLD",
+  "selected_declarations": [
+    "SparseLinearRAF.sparse_linear_raf_literature_resolution",
+    "SparseLinearRAF.no_high_probability_linear_raf",
+    "SparseLinearRAF.single_catalyst_probability_tendsto_zero"
+  ],
+  "verification_evidence": "preparation/verification/P012-release-candidate-run/result.json",
+  "lean_kernel": "PASS",
+  "release_snapshot_verification": "PENDING_CLOUD",
+  "evidence_boundary": "Saved PASS applies to the prior Challenge. Solution proof sources are unchanged; the new self-contained Challenge requires exact verification."
+}

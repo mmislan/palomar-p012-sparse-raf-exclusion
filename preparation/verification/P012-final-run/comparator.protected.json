@@ -1,0 +1,22 @@
+{
+  "challenge_module": "Registry.P012.Challenge",
+  "solution_module": "Registry.P012.Solution",
+  "theorem_names": [
+    "SparseLinearRAF.sparse_linear_raf_literature_resolution",
+    "SparseLinearRAF.no_high_probability_linear_raf",
+    "SparseLinearRAF.single_catalyst_probability_tendsto_zero"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "external_kernels": {
+    "nanoda": [
+      "/root/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/nanoda_bin"
+    ],
+    "con-ron": [
+      "/root/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/con-ron"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+Resolving dependencies
+Building Registry.P012.Challenge
+✔ [8931/8959] Built proofs.SparseLinearRAF.SparseLaw (538s)
+✔ [8932/8959] Built proofs.RAF.Polymer.Words (538s)
+✔ [8933/8959] Built proofs.RAF.Core.CRS (538s)
+✔ [8934/8959] Built proofs.RAF.Probability.UniformCatalysis (538s)
+✔ [8935/8959] Built proofs.RAF.Polymer.Reactions (534s)
+✔ [8936/8959] Built proofs.RAF.Polymer.Food (534s)
+✔ [8937/8959] Built proofs.RAF.Core.Closure (534s)
+✔ [8938/8959] Built proofs.RAF.Probability.SeedEvent (534s)
+✔ [8939/8959] Built proofs.RAF.Concrete.PolymerCRS (229s)
+✔ [8940/8959] Built proofs.RAF.Polymer.SeedCount (229s)
+✔ [8941/8959] Built proofs.RAF.Polymer.Counts (229s)
+✔ [8942/8959] Built proofs.RAF.Core.RAF (229s)
+✔ [8943/8959] Built proofs.HordijkSteelThreshold.PolymerCounts (146s)
+✔ [8944/8959] Built proofs.RAF.Asymptotics.ReactionRatio (146s)
+✔ [8945/8959] Built proofs.RAF.Core.Seed (146s)
+✔ [8946/8959] Built proofs.RAF.Concrete.SeedGateway (146s)
+✔ [8947/8959] Built proofs.RAF.Conjecture.SeedBound (52s)
+✔ [8948/8959] Built proofs.RAF.Concrete.UniformModel (52s)
+✔ [8949/8959] Built proofs.HordijkSteelThreshold.Gateway (53s)
+✔ [8950/8959] Built proofs.SparseLinearRAF.TwoFrontier (251s)
+✔ [8951/8959] Built proofs.SparseLinearRAF.Source (251s)
+✔ [8952/8959] Built proofs.RAF.Concrete.Events (252s)
+✔ [8953/8959] Built proofs.RAF.Asymptotics.FixedGap (252s)
+✔ [8954/8959] Built proofs.SparseLinearRAF.SelfConstruction (699s)
+✔ [8955/8959] Built proofs.RAF.Concrete.Asymptotics (699s)
+ℹ [8956/8959] Built proofs.HordijkSteelThreshold.GatewayProbability (267s)
+info: proofs/HordijkSteelThreshold/GatewayProbability.lean:169:14: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [8957/8959] Built proofs.SparseLinearRAF.Parameters (25s)
+✔ [8958/8959] Built proofs.SparseLinearRAF.P012Foundation (10s)
+⚠ [8959/8959] Built Registry.P012.Challenge (9.1s)
+warning: Registry/P012/Challenge.lean:7:8: declaration uses `sorry`
+warning: Registry/P012/Challenge.lean:11:8: declaration uses `sorry`
+warning: Registry/P012/Challenge.lean:16:8: declaration uses `sorry`
+Build completed successfully (8959 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SparseLinearRAF.sparse_linear_raf_literature_resolution, SparseLinearRAF.no_high_probability_linear_raf, SparseLinearRAF.single_catalyst_probability_tendsto_zero, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Registry.P012.Challenge
+Building Registry.P012.Solution
+ℹ [8956/8982] Replayed proofs.HordijkSteelThreshold.GatewayProbability
+info: proofs/HordijkSteelThreshold/GatewayProbability.lean:169:14: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [8959/8982] Built proofs.SparseLinearRAF.ProductiveProgram (540s)
+✔ [8960/8982] Built proofs.SparseLinearRAF.CoverProbability (540s)
+✔ [8961/8982] Built proofs.SparseLinearRAF.CatalystRank (540s)
+✔ [8962/8982] Built proofs.SparseLinearRAF.SelfConstructionBound (540s)
+✔ [8963/8982] Built proofs.SparseLinearRAF.EnabledCounting (297s)
+✔ [8964/8982] Built proofs.SparseLinearRAF.ProgramBounds (297s)
+✔ [8965/8982] Built proofs.SparseLinearRAF.PrefixFamily (297s)
+✔ [8966/8982] Built proofs.SparseLinearRAF.SelfConstructionLimit (297s)
+✔ [8967/8982] Built proofs.SparseLinearRAF.AssemblyCode (60s)
+✔ [8968/8982] Built proofs.SparseLinearRAF.PrefixCounting (61s)
+✔ [8969/8982] Built proofs.SparseLinearRAF.LowRankBound (12s)
+✔ [8970/8982] Built proofs.SparseLinearRAF.ProgramEncoding (17s)
+✔ [8971/8982] Built proofs.SparseLinearRAF.LowRankLimit (21s)
+✔ [8972/8982] Built proofs.SparseLinearRAF.SupportCounting (103s)
+✔ [8973/8982] Built proofs.SparseLinearRAF.SaturatedProgram (103s)
+✔ [8974/8982] Built proofs.SparseLinearRAF.BoundedRank (433s)
+✔ [8975/8982] Built proofs.SparseLinearRAF.SupportProbability (520s)
+✔ [8976/8982] Built proofs.SparseLinearRAF.LinearSupportCount (528s)
+✔ [8977/8982] Built proofs.SparseLinearRAF.RAFReduction (663s)
+✔ [8978/8982] Built proofs.SparseLinearRAF.GrowthBounds (655s)
+✔ [8979/8982] Built proofs.SparseLinearRAF.LargeRankEstimate (102s)
+✔ [8980/8982] Built proofs.SparseLinearRAF.Resolution (8.6s)
+✔ [8981/8982] Built proofs.SparseLinearRAF.LiteratureResolution (5.8s)
+✔ [8982/8982] Built Registry.P012.Solution (5.8s)
+Build completed successfully (8982 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SparseLinearRAF.sparse_linear_raf_literature_resolution, SparseLinearRAF.no_high_probability_linear_raf, SparseLinearRAF.single_catalyst_probability_tendsto_zero, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Registry.P012.Solution
+Running con-ron kernel on solution
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-ron: accepted 29242 declarations (--verified)
+con-ron kernel accepts the solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!

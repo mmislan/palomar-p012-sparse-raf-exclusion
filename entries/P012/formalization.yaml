@@ -1,0 +1,68 @@
+{
+  "version": "v0.4",
+  "project": {
+    "name": "Linear-size autocatalytic sets are asymptotically absent in the sparse binary polymer model",
+    "description": "In the sparse binary-polymer model with reversible ligation and cleavage, fix the food-length bound t, a nonnegative catalysis intensity lambda, and a linear reaction budget Cn. As the maximum polymer length n tends to infinity, the probability of a nonempty reflexively autocatalytic and food-generated reaction set with at most Cn channels tends to zero. The probability that some molecule catalyses a nonempty food-generated reaction set that constructs that molecule also tends to zero. These statements address the linear-size and single-molecule self-construction questions for the sparse catalysis law.",
+    "authors": [
+      "Michael Mislan"
+    ],
+    "responsible_maintainers": [
+      "Michael Mislan"
+    ],
+    "license": "Apache-2.0"
+  },
+  "classification": {
+    "arxiv": [
+      "math.PR"
+    ],
+    "msc2020": [
+      "60C05",
+      "05C65"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Linear-size autocatalytic sets are asymptotically absent in the sparse binary polymer model",
+      "authors": [
+        "Michael Mislan"
+      ],
+      "type": "paper",
+      "relationship": "formalizes",
+      "note": "Companion manuscript: main linear-size exclusion theorem, high-probability negation corollary, and single-catalyst self-construction proposition. Source-to-declaration mapping is in entries/P012/CLAIM-EVIDENCE.md.",
+      "location": "papers/P012/paper.pdf"
+    },
+    {
+      "title": "Autocatalytic sets in polymer networks with variable catalysis distributions",
+      "authors": [
+        "Wim Hordijk",
+        "Mike Steel"
+      ],
+      "type": "article",
+      "relationship": "background",
+      "id": "doi:10.1007/s10910-016-0666-z",
+      "location": "Section 6, closing discussion; arXiv:1605.03919v1, page 20",
+      "note": "Journal of Mathematical Chemistry 54 (2016), 1997–2021. Introduces the sparse law and asks about linear-size RAFs and single-molecule self-construction with cleavage. https://arxiv.org/pdf/1605.03919v1"
+    }
+  ],
+  "status": {
+    "scope": "In the sparse binary-polymer model with reversible ligation and cleavage, fix the food-length bound t, a nonnegative catalysis intensity lambda, and a linear reaction budget Cn. As the maximum polymer length n tends to infinity, the probability of a nonempty reflexively autocatalytic and food-generated reaction set with at most Cn channels tends to zero. The probability that some molecule catalyses a nonempty food-generated reaction set that constructs that molecule also tends to zero. These statements address the linear-size and single-molecule self-construction questions for the sparse catalysis law."
+  },
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "tool_setup": "AI-assisted source migration, metadata preparation and statement packaging using Codex.",
+        "framework": "Codex",
+        "models": []
+      }
+    ],
+    "notes": "Historical tool/model provenance is not reconstructed or invented. The manuscript and preserved records contain available production disclosures. Current preparation does not constitute an independent human mathematical review."
+  },
+  "review": {
+    "status": "agent-reviewed",
+    "notes": "Selected theorem statements and concrete probability definitions reviewed by source reading. The preserved original release passed local Comparator/kernel checks. This candidate replaces the Challenge import with explicit source definitions; the revised Challenge requires fresh exact Comparator and cloud verification."
+  },
+  "fidelity": {
+    "divergences": "The model records reversible reaction channels by their literal split positions, with a shared catalysis coordinate for both directions. Food horizon and intensity are fixed before the limit. Activity probability is clamped to [0,1] for small n; the asymptotic law is lambda*n^2/card(Reaction n), with conditional catalysis probability 1/n."
+  }
+}
