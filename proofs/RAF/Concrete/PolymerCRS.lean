@@ -39,20 +39,20 @@ theorem reaction_length_add {n : Nat} (r : Reaction n) :
   dsimp [reactionLeftLength, reactionRightLength, reactionProductLength]
   omega
 
-private theorem reaction_left_pos {n : Nat} (r : Reaction n) :
+theorem reaction_left_pos {n : Nat} (r : Reaction n) :
     1 ≤ reactionLeftLength r := by simp [reactionLeftLength]
 
-private theorem reaction_right_pos {n : Nat} (r : Reaction n) :
+theorem reaction_right_pos {n : Nat} (r : Reaction n) :
     1 ≤ reactionRightLength r := by
   dsimp [reactionRightLength]
   omega
 
-private theorem reaction_product_le {n : Nat} (r : Reaction n) :
+theorem reaction_product_le {n : Nat} (r : Reaction n) :
     reactionProductLength r ≤ n := by
   dsimp [reactionProductLength]
   omega
 
-private theorem reaction_pow_split {n : Nat} (r : Reaction n) :
+theorem reaction_pow_split {n : Nat} (r : Reaction n) :
     2 ^ (r.1.val + 1) =
       2 ^ reactionLeftLength r * 2 ^ reactionRightLength r := by
   rw [← pow_add, reaction_length_add]
